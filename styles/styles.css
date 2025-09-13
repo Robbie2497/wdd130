@@ -13,6 +13,7 @@ h1 {
     border: 1px solid rgb(0, 0, 0 / 0.2);
     padding: 2px;
     box-shadow: 0 0 30px gray;
+    color: black;
 }
 p {
     padding: 0px;
