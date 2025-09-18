@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 :root {
     --border: 1px solid rgb(0, 0, 0 / 0.2);
     --height-auto: auto;
@@ -25,8 +31,6 @@ p {
     padding: 0px;
 }
 img {
-    width: 200px;
-    height: var(--height-auto);
     border: var(--border);
     padding: 0;
     box-shadow: 0 0 30px gray;
@@ -34,21 +38,37 @@ img {
 main {
     max-width: 840px;
 }
+main img {
+    float: right;
+    width: 150px;
+    height: var(--height-auto);
+}
 aside {
+    position: relative;
     width: 20rem;
-    margin: 1rem;
-    border: var(--border);
-    padding: 1rem;
-    background-color: #eee;
-    color: #333;
     text-align: center;
 }
-aside img{
+aside img {
     width: 200px;
     height: var(--height-auto);
+}
+aside h2 {
+    position: absolute;
+    top: 50px;
+    left: 105px;
+    font-size: 3.5rem;
 }
 footer {
     margin-top: 1rem;
     border-top: var(--border);
     text-align: center;
+}
+
+/* CSS class selectors */
+.box {
+    margin: 1rem;
+    padding: 1rem;
+    border: var(--border);
+    background-color: #ddd;
+    color: black;
 }
