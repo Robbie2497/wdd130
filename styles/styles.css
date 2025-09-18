@@ -20,19 +20,15 @@ nav a {
     padding: 20px;
 }
 h1 {
-    width: 150px;
-    height: var(--height-auto);
-    border: var(--border);
-    padding: 2px;
-    box-shadow: 0 0 30px gray;
     color: black;
 }
 p {
     padding: 0px;
 }
 img {
+    height: var(--height-auto);
     border: var(--border);
-    padding: 0;
+    padding: 2px;
     box-shadow: 0 0 30px gray;
 }
 main {
