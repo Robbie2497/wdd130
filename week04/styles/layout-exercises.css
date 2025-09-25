@@ -23,19 +23,21 @@ div {
 
 .flex {
     background-color: #aba;
-    /* write declarations here */
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .grid {
     background-color: #abb;
-    /* enter declarations here */
-
+    display: grid;
+    justify-content: center;
+    align-items: center;
 }
 
 .container2 {
-    /* write declarations here */
-
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .two {
@@ -44,16 +46,21 @@ div {
 }
 
 .container3 {
-    /* write declarations here */
-
+    display: grid;
+    grid-template-rows: repeat(3, 1fr) ;
 }
 
 .columns-3 {
-    /* write declaration here */
-
+    grid-column: span 3;
 }
 
 .three {
     margin: .25rem;
     background-color: #abd;
+}
+
+.test {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 10px;
 }

@@ -38,11 +38,19 @@ main img {
     float: right;
     width: 150px;
     height: var(--height-auto);
+    border: var(--border);
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
 }
 aside {
     position: relative;
     width: 20rem;
     text-align: center;
+    margin: 1rem;
+    border: var(--border);
+    padding: 1rem;
+    background-color: darkslategray;
+    color: white;
 }
 aside img {
     width: 200px;
