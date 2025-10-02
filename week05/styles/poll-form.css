@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(67, 66, 66);
+}
+
+header {
+    margin: auto;
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    margin: 10px;
+    color: blueviolet;
+    text-align: center;
+}
+
+form {
+    display: grid;
+    width: 650px;
+    margin: 150px auto;
+    padding: 1rem;
+    border: 1px solid rgb(0, 0, 0 / 0.1);
+    border-radius: 0.5rem;
+    background-color: #121212;
+    color: #00ffcc;
+    box-shadow: 0.1rem 0.1rem purple;
+}
+
+fieldset {
+    display: grid;
+    gap: .25rem;
+}
+
+legend {
+    padding: 0.25rem;
+    font-size: large;
+}
+
+/* optional */
+label, input, button, select, textarea {
+  font-family: Roboto, Arial, sans-serif;
+}
+
+label {
+    text-align: right;
+    padding-right: 1rem;
+}
+
+input, select, textarea {
+    margin: 1rem;
+    padding: 0.5rem;
+    font-size: 1.1rem;
+    background-color: #1f1f1f;
+    color: #00ffcc;
+}
+
+textarea::placeholder {
+  color: #00ffcc;
+  opacity: 0.3;
+}
+
+input[type="checkbox"] {
+    width: 22px;
+    height: auto;
+    vertical-align: bottom;
+}
+
+button {
+    width: auto;
+    height: 2rem;
+    margin: 1rem;
+    padding: 0.3rem;
+    justify-self: end;
+    border-radius: 8px;
+    background-color: #fc2f81;
+}
+
+button:hover {
+    background-color: #ff0066;
+}
+
+footer {
+    margin: 1rem auto 0;
+    width: 650px;
+    text-align: center;
+    font-size: small;
+    color: beige;
+    border-top: 1px solid black;
+}
+
+.form-item {
+    display: grid;
+}
+
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: 0.5rem 0;
+}
+
+.column2 {
+    grid-template-columns: 1fr 2fr;
+}
+
+#pet {
+    margin: 1rem;
+    justify-self: end;
+}
