@@ -53,17 +53,23 @@ body {
     color: var(--accent1-color);
 }
 
-header, main, footer { 
+header,
+main,
+footer {
     width: 840px;
     margin: 0 auto;
 }
 
-h1, h2 {
+h1,
+h2 {
     font-family: var(--heading-font);
     color: var(--primary-color);
 }
 
-nav, p, section, article {
+nav,
+p,
+section,
+article {
     margin: 16px;
     padding: 8px;
 }
@@ -103,6 +109,16 @@ figure img {
     height: auto;
 }
 
+fieldset {
+    border: none;
+}
+
+form button {
+    width: 100%;
+    height: 2rem;
+    justify-self: start;
+}
+
 footer {
     display: flex;
     justify-content: flex-end;
@@ -111,7 +127,49 @@ footer {
 
 .grid {
     display: grid;
+}
+
+.column2 {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.column3 {
     grid-template-columns: repeat(3, 1fr);
+}
+
+
+.row3 {
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.company-info {
+    grid-column: 2 / 3;
+    text-align: center;
+    margin-bottom: -40px;
+}
+
+.company-info h2 {
+    margin-bottom: -20px;
+}
+
+.get-in-touch {
+    margin-top: 25px;
+}
+
+.personal-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.purpose {
+    display: flex;
+    align-items: center;
+}
+
+.email-link {
+    text-decoration: none;
+    color: black;
 }
 
 .adventure-container {
@@ -120,7 +178,53 @@ footer {
     align-items: center;
 }
 
+.team {
+    text-align: center;
+    padding: 32px;
+    border: 1px solid black;
+    background-color: #f8f8f8;
+}
+
+.team h2 {
+    font-size: 28px;
+    margin-bottom: 24px;
+}
+
+.employee-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 24px;
+    justify-items: center;
+}
+
+.employee-img {
+    width: 100%;
+    max-width: 200px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+}
+
+.employee figcaption {
+    margin-top: 8px;
+    font-weight: bold;
+}
+
+.form-items {
+    margin: 5px 0;
+}
+
 .hero article img {
     float: right;
     width: 125px;
+}
+
+#message {
+    width: 100%;
+    height: 50px;
+}
+
+#subscribe {
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
 }
