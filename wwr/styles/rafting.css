@@ -88,7 +88,7 @@ article {
     height: auto;
 }
 
-h1 {
+.about-heading {
     position: absolute;
     top: 20px;
     right: 0px;
@@ -100,8 +100,8 @@ h1 {
     color: #fff;
 }
 
-h2 {
-    text-align: center;
+.contact-heading {
+        text-align: center;
 }
 
 figure img {
@@ -216,6 +216,14 @@ footer {
 .hero article img {
     float: right;
     width: 125px;
+}
+
+.map {
+    margin: 25px;
+}
+
+.no-border {
+    border:0;
 }
 
 #message {
