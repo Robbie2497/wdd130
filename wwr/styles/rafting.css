@@ -218,6 +218,10 @@ footer {
     width: 125px;
 }
 
+.contact-heading {
+    margin-bottom: 25px;
+}
+
 .map {
     margin: 25px;
 }
