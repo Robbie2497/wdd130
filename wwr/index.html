@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>White River Adventures Home Page</title>
+    <meta name="description" content="This is the home page for the rafting company">
+    <meta name="author" content="Robert McGrew is the author of this document">
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
+<body>
+    <header>
+        <img src="images/wwr-logo.png" alt="company logo" width="120">
+        <nav>
+            <ul>
+                <li><a href="index.html" aria-current="page">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="home-hero">
+        <img class="home-hero-bg" src="images/cover.jpg" alt="people white water rafting">
+        <div class="home-hero-overlay" aria-hidden="true"></div>
+        <div class="home-hero-content">
+            <h1 class="home-hero-title">White River Adventures</h1>
+            <a class="home-hero-book-now" href="trips.html">Book Now!</a>
+        </div>
+    </section>
+    <main>
+        <section class="newsletter">
+            <h2 id="newsletter-title">Join Our Newsletter</h2>
+            <form action="#" method="POST" class="newsletter-form">
+                <fieldset>
+                    <legend>Subscribe for Updates</legend>
+                    <div class="form-row">
+                        <label for="name">Name</label>
+                        <input id="name" name="name" type="text" required>
+                    </div>
+                    <div class="form-row">
+                        <label for="email">Email</label>
+                        <input id="email" name="email" type="email" required>
+                    </div>
+                    <button type="submit">Subscribe</button>
+                </fieldset>
+            </form>
+        </section>
+        <section class="features">
+            <article class="feature-card">
+                <img src="images/forested-canyon.jpg" alt="Scenic river through a forested canyon">
+                <h3>Rivers</h3>
+                <p>Calm floats and thrilling sections-routes for every skill level.</p>
+            </article>
+            <article class="feature-card">
+                <img src="images/mountain-campsite.jpg" alt="A mountain campsite during the day">
+                <h3>Camping</h3>
+                <p>Bundle rafting with mountain Camping for an unforgettable overnight experience.</p>
+            </article>
+            <article class="feature-card">
+                <img src="images/rafting.jpg" alt="Raft charging through rapids">
+                <h3>Rapids</h3>
+                <p>From Class II to IV, pick the intensity that fits your style.</p>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>© 2025 🚣🏼 White River Adventures 🚣🏼 Robert McGrew</p>
+        <a href="https://www.facebook.com/">
+            <img src="images/facebook-icon.png" alt="facebook icon">
+        </a>
+        <a href="https://www.linkedin.com/">
+            <img src="images/linkedin-icon.png" alt="linked in icon">
+        </a>
+        <a href="https://www.instagram.com/">
+            <img src="images/instagram-icon.png" alt="instagram icon">
+        </a>
+    </footer>
+
+</body>
+
+</html>
